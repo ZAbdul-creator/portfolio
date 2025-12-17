@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <header>
-      <nav>
+    
+      <nav class="top">
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -17,9 +18,9 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-    </header>
+     
 
-    <main>
+    
       <section id="home">
         <h1>Welcome to My Portfolio</h1>
         <p>This is a simple portfolio webpage, built using HTML.</p>
@@ -29,7 +30,7 @@
         <h2>About Me</h2>
         <p>Hello! I am Zainab, an experienced web developer.</p>
 
-        <audio controls>
+        <audio>
           <source src="audio.mp3" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
@@ -40,7 +41,7 @@
 
         <ul>
           <li>Restaurant Menu Website</li>
-          <li>Portfolio Page</li>
+          <li>Cafe Landing Page</li>
           <li>HTML Forms Project</li>
         </ul>
 
@@ -82,10 +83,10 @@
           <label for="message">Message:</label><br />
           <textarea id="message" name="message"></textarea><br /><br />
 
-          <input type="submit" value="Send" />
+          <button><input type="submit" value="Send" /></button>
         </form>
       </section>
-    </main>
+    
 
     <footer>
       <p>&copy; 2025 My Portfolio</p>

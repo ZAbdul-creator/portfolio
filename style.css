@@ -1,0 +1,92 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: roboto;
+}
+
+.top{
+    display: inline;
+    justify-content: space-between;
+    padding: 0 20px;
+    justify-content: flex-start;
+}
+
+.top ul{
+  list-style: none;
+  display: flex; 
+  gap: 20px;
+  
+  
+}
+
+.top a{
+   color: black;
+   text-decoration: none;
+}
+
+#home{
+    background-color: black;
+    padding: 60px 40px;
+    text-align: center;
+    color: gold;
+}
+
+#home h1{
+    font-size: 60px;
+    font-weight: 200px;
+}
+
+#home p{
+    font-size: 20px;
+}
+
+#about{
+    background-color: #1a1a1a; 
+  color: #ffd700;             
+  padding: 80px 40px;
+}
+
+#about h2{
+    font-size: 40px;
+}
+
+#work{
+
+}
+
+#work h2{
+    font-size: 40px;
+    font-weight: 100px;
+}
+
+#work ul{
+    list-style: none;
+    background-color: black;
+    padding: 40px 20px;
+}
+
+#work ul{
+    color: gold;
+}
+
+#contact{
+    background-color: black; 
+    border: 1px solid grey;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: ;
+}
+
+#contact h2{
+   color: white; 
+   font-size: 40px;
+   font-weight: 120px;
+}
+
+#contact form label{
+    color: white;
+    border: 1px solid transparent;
+    margin-top: 20px;
+    border-radius: 3px;
+}
